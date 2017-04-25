@@ -39,6 +39,12 @@
         <linkfile src="." dest="xdmod/open_xdmod/modules/supremm" />
     </project>
 
+    <project
+        name="xdmod-xsede"
+        groups="xsede"
+    >
+        <linkfile src="." dest="xdmod/open_xdmod/modules/xsede" />
+    </project>
     <!--
     Related Tools
 
