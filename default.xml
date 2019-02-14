@@ -18,6 +18,7 @@
     <project
         name="xdmod"
         groups="xdmod"
+        revision="novice_user"
     />
 
     <!--
