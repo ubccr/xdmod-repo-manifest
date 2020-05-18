@@ -40,6 +40,14 @@
     </project>
 
     <project
+        name="xdmod-introspection"
+        groups="introspection"
+        revision="master"
+    >
+        <linkfile src="." dest="xdmod/open_xdmod/modules/introspection" />
+    </project>
+
+    <project
         name="xdmod-xsede"
         groups="xsede"
     >
