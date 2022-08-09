@@ -50,6 +50,7 @@
     <project
         name="xdmod-xsede"
         groups="xsede"
+        revision="xdcdb2-port"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/xsede" />
     </project>
