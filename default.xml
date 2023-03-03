@@ -3,7 +3,7 @@
     <remote
         name="ubccr"
         alias="upstream"
-        fetch="ssh://git@github.com/ubccr"
+        fetch="https://github.com/ubccr"
     />
     <default
         remote="ubccr"
