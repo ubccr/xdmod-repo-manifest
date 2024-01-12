@@ -5,6 +5,11 @@
         alias="upstream"
         fetch="https://github.com/ubccr"
     />
+    <remote
+        name="jpwhite4"
+        alias="jpwhite4"
+        fetch="https://github.com/jpwhite4"
+    />
     <default
         remote="ubccr"
         revision="xdmod11.0"
@@ -35,6 +40,8 @@
     <project
         name="xdmod-supremm"
         groups="supremm"
+        remote="jpwhite4"
+        revision="plotly_efficiency"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/supremm" />
     </project>
