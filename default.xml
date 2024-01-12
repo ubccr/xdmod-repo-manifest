@@ -57,6 +57,8 @@
     <project
         name="xdmod-xsede"
         groups="xsede"
+        remote="jpwhite4"
+        revision="plotly_efficiency"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/xsede" />
     </project>
