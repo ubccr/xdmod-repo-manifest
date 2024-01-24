@@ -38,6 +38,13 @@
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/supremm" />
     </project>
+    <project
+        name="xdmod-ondemand"
+        groups="ondemand"
+        revision="main"
+    >
+        <linkfile src="." dest="xdmod/open_xdmod/modules/ondemand" />
+    </project>
 
     <project
         name="xdmod-introspection"
