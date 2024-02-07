@@ -5,6 +5,11 @@
         alias="upstream"
         fetch="https://github.com/ubccr"
     />
+    <remote
+        name="gmdean"
+        alias="gmdean"
+        fetch="https://github.com/eiffel777"
+    />
     <default
         remote="ubccr"
         revision="xdmod11.0"
@@ -57,6 +62,8 @@
     <project
         name="xdmod-xsede"
         groups="xsede"
+        revision="add-resource-specs-realm"
+        remote="gmdean"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/xsede" />
     </project>
