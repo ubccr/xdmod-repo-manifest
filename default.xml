@@ -48,7 +48,7 @@
     <project
         name="xdmod-introspection"
         groups="introspection"
-        revision="master"
+        revision="main"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/introspection" />
     </project>
