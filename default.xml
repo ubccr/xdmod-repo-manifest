@@ -3,11 +3,11 @@
     <remote
         name="ubccr"
         alias="upstream"
-        fetch="ssh://git@github.com/ubccr"
+        fetch="https://github.com/ubccr"
     />
     <default
         remote="ubccr"
-        revision="xdmod10.5"
+        revision="main"
     />
 
     <!--
@@ -41,18 +41,21 @@
     <project
         name="xdmod-ondemand"
         groups="ondemand"
-        revision="main"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/ondemand" />
     </project>
     <project
         name="xdmod-introspection"
         groups="introspection"
-        revision="main"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/introspection" />
     </project>
-
+    <project
+        name="xdmod-xsede"
+        groups="xsede"
+    >
+        <linkfile src="." dest="xdmod/open_xdmod/modules/xsede" />
+    </project>
     <!--
     Related Tools
 
