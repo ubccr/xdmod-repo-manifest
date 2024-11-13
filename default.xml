@@ -5,6 +5,11 @@
         alias="upstream"
         fetch="https://github.com/ubccr"
     />
+    <remote
+            name="github-ryanrath"
+            alias="ryanrath"
+            fetch="https://github.com/ryanrath"
+    />
     <default
         remote="ubccr"
         revision="main"
@@ -55,6 +60,14 @@
         groups="xsede"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/xsede" />
+    </project>
+    <project
+            name="xdmod-cloudbank"
+            groups="cloudbank"
+            remote="github-ryanrath"
+            revision="initial-version"
+    >
+        <linkfile src="." dest="xdmod/open_xdmod/modules/cloudbank"/>
     </project>
     <!--
     Related Tools
