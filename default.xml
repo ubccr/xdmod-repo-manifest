@@ -7,7 +7,7 @@
     />
     <default
         remote="ubccr"
-        revision="xdmod11.0"
+        revision="v11.0.0-1.0"
     />
 
     <!--
@@ -18,6 +18,7 @@
     <project
         name="xdmod"
         groups="xdmod"
+        revision="v11.0.0-access-p2"
     />
 
     <!--
@@ -44,7 +45,6 @@
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/ondemand" />
     </project>
-
     <project
         name="xdmod-introspection"
         groups="introspection"
@@ -52,10 +52,10 @@
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/introspection" />
     </project>
-
     <project
         name="xdmod-xsede"
         groups="xsede"
+        revision="v11.0.0-p2"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/xsede" />
     </project>
