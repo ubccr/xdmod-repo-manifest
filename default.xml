@@ -7,7 +7,7 @@
     />
     <default
         remote="ubccr"
-        revision="v11.0.0-1.0"
+        revision="refs/tags/v11.0.0-1.0"
     />
 
     <!--
