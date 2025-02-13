@@ -7,7 +7,7 @@
     />
     <default
         remote="ubccr"
-        revision="refs/tags/v11.0.0-1.0"
+        revision="refs/tags/v11.0.1-rc.1"
     />
 
     <!--
@@ -18,7 +18,6 @@
     <project
         name="xdmod"
         groups="xdmod"
-        revision="refs/tags/v11.0.0-access-p2"
     />
 
     <!--
@@ -55,13 +54,12 @@
     <project
         name="xdmod-xsede"
         groups="xsede"
-        revision="refs/tags/data-update-20250122"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/xsede" />
     </project>
     <project
-            name="xdmod-cloudbank"
-            groups="cloudbank"
+        name="xdmod-cloudbank"
+        groups="cloudbank"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/cloudbank"/>
     </project>
