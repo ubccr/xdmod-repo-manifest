@@ -18,6 +18,7 @@
     <project
         name="xdmod"
         groups="xdmod"
+        revision="refs/tags/v11.0.1-rc.2"
     />
 
     <!--
