@@ -3,7 +3,12 @@
     <remote
         name="ubccr"
         alias="upstream"
-        fetch="https://github.com/ubccr"
+        fetch="ssh://github.com/ubccr"
+    />
+    <remote
+            name="github-ryanrath"
+            alias="ryanrath"
+            fetch="https://github.com/ryanrath"
     />
     <default
         remote="ubccr"
@@ -45,12 +50,6 @@
         <linkfile src="." dest="xdmod/open_xdmod/modules/ondemand" />
     </project>
     <project
-        name="xdmod-cloudbank"
-        groups="cloudbank"
-    >
-        <linkfile src="." dest="xdmod/open_xdmod/modules/cloudbank" />
-    </project>
-    <project
         name="xdmod-introspection"
         groups="introspection"
     >
@@ -61,6 +60,14 @@
         groups="xsede"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/xsede" />
+    </project>
+    <project
+            name="xdmod-cloudbank"
+            groups="cloudbank"
+            remote="github-ryanrath"
+            revision="update-dimension-tables"
+    >
+        <linkfile src="." dest="xdmod/open_xdmod/modules/cloudbank"/>
     </project>
     <!--
     Related Tools
