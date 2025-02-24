@@ -3,7 +3,7 @@
     <remote
         name="ubccr"
         alias="upstream"
-        fetch="ssh://github.com/ubccr"
+        fetch="https://github.com/ubccr"
     />
     <remote
             name="github-ryanrath"
