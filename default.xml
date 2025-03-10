@@ -61,7 +61,7 @@
     <project
         name="xdmod-xsede"
         groups="xsede"
-        revision="refs/tags/data-update-20250122"
+        revision="refs/tags/data-update-20250310"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/xsede" />
     </project>
