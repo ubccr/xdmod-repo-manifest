@@ -41,7 +41,6 @@
     <project
         name="xdmod-ondemand"
         groups="ondemand"
-        revision="main"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/ondemand" />
     </project>
