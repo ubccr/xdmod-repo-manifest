@@ -7,7 +7,7 @@
     />
     <default
         remote="ubccr"
-        revision="refs/tags/v11.0.0-1.0"
+        revision="refs/tags/v11.0.1-1"
     />
 
     <!--
@@ -18,7 +18,6 @@
     <project
         name="xdmod"
         groups="xdmod"
-        revision="refs/tags/v11.0.0-access-p2"
     />
 
     <!--
@@ -30,6 +29,7 @@
     <project
         name="xdmod-appkernels"
         groups="appkernels"
+        revision="refs/tags/v11.0.0-1.0"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/appkernels" />
     </project>
@@ -61,7 +61,6 @@
     <project
         name="xdmod-xsede"
         groups="xsede"
-        revision="refs/tags/data-update-20250310"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/xsede" />
     </project>
