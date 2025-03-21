@@ -65,7 +65,7 @@
             name="xdmod-cloudbank"
             groups="cloudbank"
             remote="github-ryanrath"
-            revision="update-dimension-tables"
+            revision="merge-udt-and-afr"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/cloudbank"/>
     </project>
