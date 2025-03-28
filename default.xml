@@ -5,6 +5,11 @@
         alias="upstream"
         fetch="ssh://git@github.com/ubccr"
     />
+    <remote
+        name="github-jpwhite4"
+        alias="upstream"
+        fetch="ssh://git@github.com/jpwhite4"
+    />
     <default
         remote="ubccr"
         revision="main"
@@ -43,6 +48,21 @@
         groups="ondemand"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/ondemand" />
+    </project>
+
+    <project
+            name="xdmod-cloudbank"
+            groups="cloudbank"
+    >
+        <linkfile src="." dest="xdmod/open_xdmod/modules/cloudbank" />
+    </project>
+    <project
+        name="xdmod-nairr"
+        groups="nairr"
+        remote="github-jpwhite4"
+        revision="main"
+    >
+        <linkfile src="." dest="xdmod/open_xdmod/modules/nairr" />
     </project>
     <project
         name="xdmod-introspection"
