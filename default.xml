@@ -55,7 +55,12 @@
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/ondemand" />
     </project>
-
+    <project
+        name="xdmod-introspection"
+        groups="introspection"
+    >
+        <linkfile src="." dest="xdmod/open_xdmod/modules/introspection" />
+    </project>
     <project
             name="xdmod-cloudbank"
             groups="cloudbank"
@@ -65,18 +70,12 @@
         <linkfile src="." dest="xdmod/open_xdmod/modules/cloudbank" />
     </project>
     <project
-        name="xdmod-nairr"
-        groups="nairr"
-        remote="jpwhite4"
-        revision="main"
+            name="xdmod-nairr"
+            groups="nairr"
+            remote="jpwhite4"
+            revision="main"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/nairr" />
-    </project>
-    <project
-        name="xdmod-introspection"
-        groups="introspection"
-    >
-        <linkfile src="." dest="xdmod/open_xdmod/modules/introspection" />
     </project>
 
     <!--
