@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote
-        name="ubccr"
-        alias="upstream"
-        fetch="ssh://git@github.com/ubccr"
+            name="ubccr"
+            alias="upstream"
+            fetch="https://github.com/ubccr"
     />
     <remote
-        name="github-jpwhite4"
-        alias="upstream"
-        fetch="ssh://git@github.com/jpwhite4"
+            name="jpwhite4"
+            alias="jpwhite4"
+            fetch="https://github.com/jpwhite4"
     />
     <default
         remote="ubccr"
@@ -59,7 +59,7 @@
     <project
         name="xdmod-nairr"
         groups="nairr"
-        remote="github-jpwhite4"
+        remote="jpwhite4"
         revision="main"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/nairr" />
