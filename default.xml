@@ -10,6 +10,12 @@
             alias="jpwhite4"
             fetch="https://github.com/jpwhite4"
     />
+    <remote
+        name="ryanrath"
+        alias="ryanrath"
+        fetch="https://github.com/ryanrath"
+
+    />
     <default
         remote="ubccr"
         revision="main"
@@ -53,6 +59,8 @@
     <project
             name="xdmod-cloudbank"
             groups="cloudbank"
+            remote="ryanrath"
+            revision="update-dimension-tables"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/cloudbank" />
     </project>
