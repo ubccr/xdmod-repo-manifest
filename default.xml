@@ -73,7 +73,7 @@
             name="xdmod-nairr"
             groups="nairr"
             remote="jpwhite4"
-            revision="main"
+            revision="additional_shredders"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/nairr" />
     </project>
