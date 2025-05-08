@@ -65,7 +65,7 @@
             name="xdmod-cloudbank"
             groups="cloudbank"
             remote="ryanrath"
-            revision="update-dimension-tables"
+            revision="main"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/cloudbank" />
     </project>
