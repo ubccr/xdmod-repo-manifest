@@ -56,7 +56,7 @@
     <project
         name="xdmod-cloudbank"
         groups="cloudbank"
-        revision="refs/tags/v11.0.1-access-p1-rc.1"
+        revision="refs/tags/v11.0.1-access-p1-rc.2"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/cloudbank"/>
     </project>
