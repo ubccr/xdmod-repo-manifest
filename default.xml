@@ -7,7 +7,7 @@
     />
     <default
         remote="ubccr"
-        revision="refs/tags/v11.0.1-rc.2"
+        revision="refs/tags/v11.0.1-1"
     />
 
     <!--
@@ -18,7 +18,7 @@
     <project
         name="xdmod"
         groups="xdmod"
-        revision="refs/tags/v11.0.1-rc.3"
+        revision="refs/tags/v11.0.1-access-p1-rc.1"
     />
 
     <!--
@@ -30,6 +30,7 @@
     <project
         name="xdmod-appkernels"
         groups="appkernels"
+        revision="refs/tags/v11.0.0-1.0"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/appkernels" />
     </project>
@@ -42,7 +43,6 @@
     <project
         name="xdmod-ondemand"
         groups="ondemand"
-        revision="refs/tags/v11.0.1-rc.3"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/ondemand" />
     </project>
@@ -54,18 +54,18 @@
         <linkfile src="." dest="xdmod/open_xdmod/modules/introspection" />
     </project>
     <project
-        name="xdmod-xsede"
-        groups="xsede"
-        revision="refs/tags/v11.0.1-rc.3"
-    >
-        <linkfile src="." dest="xdmod/open_xdmod/modules/xsede" />
-    </project>
-    <project
         name="xdmod-cloudbank"
         groups="cloudbank"
-        revision="refs/tags/v11.0.1-rc.3"
+        revision="refs/tags/v11.0.1-access-p1-rc.1"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/cloudbank"/>
+    </project>
+    <project
+        name="xdmod-xsede"
+        groups="xsede"
+        revision="refs/tags/v11.0.1-p1-rc.1"
+    >
+        <linkfile src="." dest="xdmod/open_xdmod/modules/xsede" />
     </project>
     <!--
     Related Tools
