@@ -65,7 +65,7 @@
             name="xdmod-cloudbank"
             groups="cloudbank"
             remote="github-ryanrath"
-            revision="merge-udt-and-afr"
+            revision="re-add-organization-attributes"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/cloudbank"/>
     </project>
