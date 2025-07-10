@@ -67,7 +67,6 @@
     <project
             name="xdmod-nairr"
             groups="nairr"
-            remote="ubbcr"
             revision="dev"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/nairr" />
