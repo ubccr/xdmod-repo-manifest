@@ -6,11 +6,6 @@
             fetch="https://github.com/ubccr"
     />
     <remote
-            name="jpwhite4"
-            alias="jpwhite4"
-            fetch="https://github.com/jpwhite4"
-    />
-    <remote
         name="ryanrath"
         alias="ryanrath"
         fetch="https://github.com/ryanrath"
@@ -72,8 +67,7 @@
     <project
             name="xdmod-nairr"
             groups="nairr"
-            remote="jpwhite4"
-            revision="additional_shredders"
+            revision="dev"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/nairr" />
     </project>
