@@ -3,18 +3,18 @@
     <remote
             name="ubccr"
             alias="upstream"
-            fetch="https://github.com/ubccr"
+            fetch="ssh://git@github.com/ubccr"
     />
     <remote
         name="ryanrath"
         alias="ryanrath"
-        fetch="https://github.com/ryanrath"
+        fetch="ssh://git@github.com/ryanrath"
 
     />
     <remote
         name="rvtovar"
         alias="rvtovar"
-        fetch="https://github.com/rvtovar"
+        fetch="ssh://git@github.com/rvtovar"
 
     />
     <default
@@ -66,7 +66,7 @@
             name="xdmod-cloudbank"
             groups="cloudbank"
             remote="ryanrath"
-            revision="main"
+            revision="re-add-organization-attributes"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/cloudbank" />
     </project>
