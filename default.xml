@@ -11,6 +11,12 @@
         fetch="https://github.com/ryanrath"
 
     />
+    <remote
+        name="rvtovar"
+        alias="rvtovar"
+        fetch="https://github.com/rvtovar"
+
+    />
     <default
         remote="ubccr"
         revision="main"
@@ -67,7 +73,8 @@
     <project
             name="xdmod-nairr"
             groups="nairr"
-            revision="dev"
+            remote="rvtovar"
+            revision="additional_shredders"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/nairr" />
     </project>
