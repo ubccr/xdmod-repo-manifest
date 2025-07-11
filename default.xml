@@ -6,6 +6,12 @@
             fetch="https://github.com/ubccr"
     />
     <remote
+        name="ryanrath"
+        alias="ryanrath"
+        fetch="https://github.com/ryanrath"
+
+    />
+    <remote
         name="rvtovar"
         alias="rvtovar"
         fetch="https://github.com/rvtovar"
@@ -59,7 +65,7 @@
     <project
             name="xdmod-cloudbank"
             groups="cloudbank"
-            remote="ubccr"
+            remote="ryanrath"
             revision="main"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/cloudbank" />
