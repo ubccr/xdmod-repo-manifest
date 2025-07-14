@@ -1,98 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote
-            name="ubccr"
-            alias="upstream"
-            fetch="ssh://git@github.com/ubccr"
-    />
-    <remote
-        name="ryanrath"
-        alias="ryanrath"
-        fetch="ssh://git@github.com/ryanrath"
-
-    />
-    <remote
-        name="rvtovar"
-        alias="rvtovar"
-        fetch="ssh://git@github.com/rvtovar"
-
-    />
-    <default
-        remote="ubccr"
-        revision="main"
-    />
-
-    <!--
+  <remote alias="upstream" fetch="ssh://git@github.com/ubccr" name="ubccr"></remote>
+  <remote alias="ryanrath" fetch="ssh://git@github.com/ryanrath" name="ryanrath"></remote>
+  <remote alias="rvtovar" fetch="ssh://git@github.com/rvtovar" name="rvtovar"></remote>
+  <default remote="ubccr" revision="main"></default>
+  <!--
     Open XDMoD
 
     This is the main Open XDMoD repository. It will be installed by default.
     -->
-    <project
-        name="xdmod"
-        groups="xdmod"
-    />
-
-    <!--
+  <project groups="xdmod" name="xdmod"></project>
+  <!--
     Open XDMoD Modules
 
     These are Open XDMoD modules developed by the Open XDMoD team.
     They will be installed by default.
     -->
-    <project
-        name="xdmod-appkernels"
-        groups="appkernels"
-    >
-        <linkfile src="." dest="xdmod/open_xdmod/modules/appkernels" />
-    </project>
-    <project
-        name="xdmod-supremm"
-        groups="supremm"
-    >
-        <linkfile src="." dest="xdmod/open_xdmod/modules/supremm" />
-    </project>
-    <project
-        name="xdmod-ondemand"
-        groups="ondemand"
-    >
-        <linkfile src="." dest="xdmod/open_xdmod/modules/ondemand" />
-    </project>
-    <project
-        name="xdmod-introspection"
-        groups="introspection"
-    >
-        <linkfile src="." dest="xdmod/open_xdmod/modules/introspection" />
-    </project>
-    <project
-            name="xdmod-cloudbank"
-            groups="cloudbank"
-            remote="ryanrath"
-            revision="re-add-organization-attributes"
-    >
-        <linkfile src="." dest="xdmod/open_xdmod/modules/cloudbank" />
-    </project>
-    <project
-            name="xdmod-nairr"
-            groups="nairr"
-            remote="rvtovar"
-            revision="additional_shredders"
-    >
-        <linkfile src="." dest="xdmod/open_xdmod/modules/nairr" />
-    </project>
-
-    <!--
+  <project groups="appkernels" name="xdmod-appkernels">
+    <linkfile dest="xdmod/open_xdmod/modules/appkernels" src="."></linkfile>
+  </project>
+  <project groups="supremm" name="xdmod-supremm">
+    <linkfile dest="xdmod/open_xdmod/modules/supremm" src="."></linkfile>
+  </project>
+  <project groups="ondemand" name="xdmod-ondemand">
+    <linkfile dest="xdmod/open_xdmod/modules/ondemand" src="."></linkfile>
+  </project>
+  <project groups="introspection" name="xdmod-introspection">
+    <linkfile dest="xdmod/open_xdmod/modules/introspection" src="."></linkfile>
+  </project>
+  <project groups="cloudbank" name="xdmod-cloudbank" remote="ryanrath" revision="re-add-organization-attributes">
+    <linkfile dest="xdmod/open_xdmod/modules/cloudbank" src="."></linkfile>
+  </project>
+  <project groups="nairr" name="xdmod-nairr" remote="rvtovar" revision="additional_shredders">
+    <linkfile dest="xdmod/open_xdmod/modules/nairr" src="."></linkfile>
+  </project>
+  <!--
     Related Tools
 
     These projects are tools used by Open XDMoD but are not part of it.
     They are included for convenience, but they are not installed by default.
     -->
-    <project
-        name="supremm"
-        groups="notdefault,supremm,tools"
-        revision="master"
-    />
-    <project
-        name="akrr"
-        groups="notdefault,appkernels,tools"
-        revision="master"
-    />
+  <project groups="notdefault,supremm,tools" name="supremm" revision="master"></project>
+  <project groups="notdefault,appkernels,tools" name="akrr" revision="master"></project>
 </manifest>
