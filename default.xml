@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote alias="upstream" fetch="ssh://git@github.com/ubccr" name="ubccr"></remote>
-  <remote alias="ryanrath" fetch="ssh://git@github.com/ryanrath" name="ryanrath"></remote>
   <remote alias="rvtovar" fetch="ssh://git@github.com/rvtovar" name="rvtovar"></remote>
   <default remote="ubccr" revision="main"></default>
   <!--
@@ -28,7 +27,7 @@
   <project groups="introspection" name="xdmod-introspection">
     <linkfile dest="xdmod/open_xdmod/modules/introspection" src="."></linkfile>
   </project>
-  <project groups="cloudbank" name="xdmod-cloudbank" remote="ryanrath" revision="main">
+  <project groups="cloudbank" name="xdmod-cloudbank" remote="ubccr" revision="main">
     <linkfile dest="xdmod/open_xdmod/modules/cloudbank" src="."></linkfile>
   </project>
   <project groups="nairr" name="xdmod-nairr" remote="ubccr" revision="dev">
