@@ -28,10 +28,10 @@
   <project groups="introspection" name="xdmod-introspection">
     <linkfile dest="xdmod/open_xdmod/modules/introspection" src="."></linkfile>
   </project>
-  <project groups="cloudbank" name="xdmod-cloudbank" remote="ryanrath" revision="re-add-organization-attributes">
+  <project groups="cloudbank" name="xdmod-cloudbank" remote="ryanrath" revision="main">
     <linkfile dest="xdmod/open_xdmod/modules/cloudbank" src="."></linkfile>
   </project>
-  <project groups="nairr" name="xdmod-nairr" remote="rvtovar" revision="additional_shredders">
+  <project groups="nairr" name="xdmod-nairr" remote="ubccr" revision="dev">
     <linkfile dest="xdmod/open_xdmod/modules/nairr" src="."></linkfile>
   </project>
   <!--
