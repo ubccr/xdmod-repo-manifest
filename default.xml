@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote alias="upstream" fetch="ssh://git@github.com/ubccr" name="ubccr"></remote>
-  <remote alias="rvtovar" fetch="ssh://git@github.com/rvtovar" name="rvtovar"></remote>
+  <remote alias="upstream" fetch="https://github.com/ubccr" name="ubccr"></remote>
+  <remote alias="rvtovar" fetch="https://github.com/rvtovar" name="rvtovar"></remote>
+  <remote name="github-ryanrath" alias="ryanrath" fetch="https://github.com/ryanrath"/>
   <default remote="ubccr" revision="main"></default>
   <!--
     Open XDMoD
