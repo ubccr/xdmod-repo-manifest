@@ -18,7 +18,7 @@
     <project
         name="xdmod"
         groups="xdmod"
-        revision="refs/tags/v11.0.2-2"
+        revision="refs/tags/v11.0.2-3"
     />
 
     <!--
