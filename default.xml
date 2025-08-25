@@ -17,7 +17,7 @@
     <project
         name="xdmod"
         groups="xdmod"
-        revision="refs/tags/v11.0.2-access-p1"
+        revision="refs/tags/v11.0.2-access-p2"
     />
 
     <!--
@@ -64,7 +64,7 @@
     <project
         name="xdmod-xsede"
         groups="xsede"
-        revision="refs/tags/v11.0.2-p1"
+        revision="refs/tags/v11.0.2-p2"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/xsede" />
     </project>
