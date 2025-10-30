@@ -10,9 +10,14 @@
         alias="jpwhite4"
         fetch="https://github.com/jpwhite4"
     />
+    <remote
+            name="github-ryanrath"
+            alias="ryanrath"
+            fetch="https://github.com/ryanrath"
+    />
     <default
         remote="ubccr"
-        revision="xdmod11.0"
+        revision="main"
     />
 
     <!--
@@ -23,6 +28,8 @@
     <project
         name="xdmod"
         groups="xdmod"
+        remote="jpwhite4"
+        revision="allocations_updates"
     />
 
     <!--
@@ -41,26 +48,37 @@
         name="xdmod-supremm"
         groups="supremm"
         remote="jpwhite4"
-        revision="plotly_efficiency"
+        revision="allocations_updates"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/supremm" />
     </project>
-
+    <project
+        name="xdmod-ondemand"
+        groups="ondemand"
+    >
+        <linkfile src="." dest="xdmod/open_xdmod/modules/ondemand" />
+    </project>
     <project
         name="xdmod-introspection"
         groups="introspection"
-        revision="main"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/introspection" />
     </project>
-
     <project
         name="xdmod-xsede"
         groups="xsede"
         remote="jpwhite4"
-        revision="plotly_efficiency"
+        revision="allocations_updates"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/xsede" />
+    </project>
+    <project
+            name="xdmod-cloudbank"
+            groups="cloudbank"
+            remote="github-ryanrath"
+            revision="re-add-organization-attributes"
+    >
+        <linkfile src="." dest="xdmod/open_xdmod/modules/cloudbank"/>
     </project>
     <!--
     Related Tools
