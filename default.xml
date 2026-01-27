@@ -36,12 +36,16 @@
     <project
         name="xdmod-appkernels"
         groups="appkernels"
+        remote="github-ryanrath"
+        revision="symfony_migration"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/appkernels" />
     </project>
     <project
         name="xdmod-supremm"
         groups="supremm"
+        remote="github-ryanrath"
+        revision="symfony_migration"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/supremm" />
     </project>
@@ -69,7 +73,7 @@
             name="xdmod-cloudbank"
             groups="cloudbank"
             remote="github-ryanrath"
-            revision="main"
+            revision="symfony_migration"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/cloudbank"/>
     </project>
