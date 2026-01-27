@@ -23,6 +23,8 @@
     <project
         name="xdmod"
         groups="xdmod"
+        remote="github-ryanrath"
+        revision="symfony_migration"
     />
 
     <!--
@@ -58,6 +60,8 @@
     <project
         name="xdmod-xsede"
         groups="xsede"
+        remote="github-ryanrath"
+        revision="symfony_migration"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/xsede" />
     </project>
@@ -65,7 +69,7 @@
             name="xdmod-cloudbank"
             groups="cloudbank"
             remote="github-ryanrath"
-            revision="re-add-organization-attributes"
+            revision="main"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/cloudbank"/>
     </project>
