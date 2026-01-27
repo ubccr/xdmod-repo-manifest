@@ -61,7 +61,7 @@
         name="xdmod-xsede"
         groups="xsede"
         remote="github-ryanrath"
-        revision="symfony_migration"
+        revision="symfony_changes"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/xsede" />
     </project>
