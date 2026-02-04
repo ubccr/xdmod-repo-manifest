@@ -24,7 +24,7 @@
         name="xdmod"
         groups="xdmod"
         remote="github-ryanrath"
-        revision="symfony_migration"
+        revision="symfony-de-prefixify-dashboard-controller"
     />
 
     <!--
