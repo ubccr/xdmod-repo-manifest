@@ -24,7 +24,7 @@
         name="xdmod"
         groups="xdmod"
         remote="github-ryanrath"
-        revision="update-env-file-generation"
+        revision="symfony_migration"
     />
 
     <!--
