@@ -28,8 +28,6 @@
     <project
         name="xdmod"
         groups="xdmod"
-        remote="jpwhite4"
-        revision="allocations_updates"
     />
 
     <!--
@@ -47,8 +45,6 @@
     <project
         name="xdmod-supremm"
         groups="supremm"
-        remote="jpwhite4"
-        revision="allocations_updates"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/supremm" />
     </project>
