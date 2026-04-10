@@ -57,14 +57,14 @@
     <project
         name="xdmod-cloudbank"
         groups="cloudbank"
-        revision="refs/tags/v11.0.2-access-p3-2"
+        revision="refs/tags/v11.0.2-access-p5-1"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/cloudbank"/>
     </project>
     <project
         name="xdmod-xsede"
         groups="xsede"
-        revision="refs/tags/v11.0.2-p4-2"
+        revision="refs/tags/v11.0.2-p5-1"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/xsede" />
     </project>
