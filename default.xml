@@ -28,7 +28,7 @@
   <project groups="introspection" name="xdmod-introspection">
     <linkfile dest="xdmod/open_xdmod/modules/introspection" src="."></linkfile>
   </project>
-  <project groups="cloudbank" name="xdmod-cloudbank" remote="ubccr" revision="main">
+  <project groups="cloudbank" name="xdmod-cloudbank" remote="ryanrath" revision="add-allocation-type">
     <linkfile dest="xdmod/open_xdmod/modules/cloudbank" src="."></linkfile>
   </project>
   <project groups="nairr" name="xdmod-nairr" remote="ubccr" revision="dev">
