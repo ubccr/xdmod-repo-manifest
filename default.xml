@@ -31,7 +31,7 @@
   <project groups="cloudbank" name="xdmod-cloudbank" remote="github-ryanrath" revision="add-allocation-type">
     <linkfile dest="xdmod/open_xdmod/modules/cloudbank" src="."></linkfile>
   </project>
-  <project groups="nairr" name="xdmod-nairr" remote="ubccr" revision="dev">
+  <project groups="nairr" name="xdmod-nairr" remote="rvtovar" revision="configupdates">
     <linkfile dest="xdmod/open_xdmod/modules/nairr" src="."></linkfile>
   </project>
   <!--
