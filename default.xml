@@ -64,7 +64,7 @@
     <project
         name="xdmod-xsede"
         groups="xsede"
-        revision="refs/tags/v11.0.4-1"
+        revision="refs/tags/v11.0.4-p1-1"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/xsede" />
     </project>
